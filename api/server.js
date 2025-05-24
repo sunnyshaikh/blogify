@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cookieParser());
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://blogifymern.netlify.app/",
+  "https://blogifymern.netlify.app",
 ];
 
 // Configure CORS dynamically
