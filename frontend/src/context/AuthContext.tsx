@@ -43,7 +43,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   const [isLoading, setIsLoading] = useState(true);
 
   // Configure axios defaults
-  axios.defaults.baseURL = "https://blogify-snowy.vercel.app/api";
+  axios.defaults.baseURL = "https://blogify-xuhk.onrender.com/api";
   axios.defaults.withCredentials = true;
 
   useEffect(() => {
